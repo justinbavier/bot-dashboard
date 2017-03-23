@@ -7,7 +7,7 @@ const config = {
             "serverURL": process.env.serverURL || 'http://localhost:5000/parse',
             "appId": process.env.APP_ID || 'myAppKey',
             "masterKey": process.env.MASTER_KEY || 'masterKey',
-            "appName": "Steve the Sassy Scrum Bot Dashboard",
+            "appName": "parse-server-example",
             "production": true
         }
     ],
