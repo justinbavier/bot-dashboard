@@ -5,8 +5,8 @@ const config = {
     apps: [
         {
             "serverURL": process.env.serverURL || 'http://localhost:5000/parse',
-            "appId": process.env.APP_ID || 'myAppKey',
-            "masterKey": process.env.MASTER_KEY || 'masterKey',
+            "appId": process.env.APP_ID || '00100100',
+            "masterKey": process.env.MASTER_KEY || 'YouAreTheFleaOfYourMasterKey',
             "appName": "parse-server-example",
             "production": true
         }
